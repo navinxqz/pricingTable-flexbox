@@ -32,6 +32,7 @@
       text-align: justify;
       margin-bottom: 30px;
       margin-top: 30px;
+      font-size: 2.5rex;
     }
     button{
       clear: both;
@@ -55,6 +56,10 @@
       font-size: 5rex;
       font-weight: bolder;
     }
+    footer{
+      margin-top: 20%;
+      text-align: center;
+    }
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px){
@@ -64,8 +69,17 @@
       align-items: center;
     }
     .pricing-plan{
-      flex-basis: 330px;
-      width: 300px;
+      flex-basis: 500px;
+      width: 500px;
+    }
+    .plan-title{ font-size: 6rex; }
+    .plan-price{ font-size: 7rex; }
+    .plan-features{ font-size: 4rex; }
+    button{
+      margin-top: 10%;
+      width: 130px;
+      height: 40px;
+      font-size: 2.5rex;
     }
   }
   </style>
@@ -77,9 +91,9 @@
       <div class="plan-title">Basic</div>
       <div class="plan-price">$9.99/month</div>
       <ul class="plan-features">
-        <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
-        <li>🚫 Support</li>
+        <li>🐣 10GB Storage</li>
+        <li>😶 1 User</li>
+        <li>❌ Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
     </div>
@@ -87,8 +101,8 @@
       <div class="plan-title">Standard</div>
       <div class="plan-price">$19.99/month</div>
       <ul class="plan-features">
-        <li>✅ 50GB Storage</li>
-        <li>✅ 5 Users</li>
+        <li>🐥 50GB Storage</li>
+        <li>😐 5 Users</li>
         <li>✅ Phone &amp; Email Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
@@ -97,13 +111,17 @@
       <div class="plan-title">Premium</div>
       <div class="plan-price">$49.99/month</div>
       <ul class="plan-features">
-        <li>✅ 100GB Storage</li>
-        <li>✅ 10 Users</li>
-        <li>✅ 24/7 Support</li>
+        <li>✨ 100GB Storage</li>
+        <li>🙂 10 Users</li>
+        <li>🎯 24/7 Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
     </div>
   </div>
+
+  <footer>
+    <p>© 2024 Navin, All rights reserved.</p>
+  </footer>
 
 </body>
 
